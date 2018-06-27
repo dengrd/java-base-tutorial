@@ -1,5 +1,7 @@
 ### public class ArrayList\<E> extends AbstractList\<E> implements List\<E>, RandomAccess, Cloneable, java.io.Serializable
 
+![ArrayList类层次结构图](https://raw.githubusercontent.com/dengrd/images-repo/master/201806/ArrayList.png)
+
 #### ArrayList :
 　　动态数组列表,底层采用数组的结构来存储元素，因此ArrayList可以支持随机访问，有序（元素插入顺序）,查询快速，随机插入删除慢（设计到底层数组的移动，在一个位置增加元素后，则该位置
 往后的所有元素都要往后移动一位，删除同理）。 默认容量为10，超过容量后会自动进行数组拷贝，将容量扩大至原来的1.5倍。
